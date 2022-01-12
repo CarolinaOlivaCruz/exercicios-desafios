@@ -8,9 +8,13 @@
 </head>
 <body>
     <h1>Podemos fazer listas numeradas seja com letras ou números</h1>
-    <h3>Lista ordenada</h3>
-    <p>Para isso usamos a tag ol seguido de type para definir, e para dizer a partir de onde se inicia a lista incluimos a tag start. Daí podemoss seguir com a lista.</p>
-   <p>Importante lembrar que sera ol type start dentro do sinal menor/maior</p>
+    <h2>Lista ordenadas e não ordenadas</h2>
+    <pre>
+        <h3>Lista ordenada</h3>
+        <p>     Para isso usamos a tag ol seguido de type para definir, e para dizer
+a partir de onde se inicia a lista incluimos a tag start. Daí podemoss seguir com a lista.</p>
+        <p>     Importante lembrar que sera ol type start dentro do sinal menor/maior</p>
+    </pre>
     <ol type="1" start="4"> <!--Para o type temos as opções 1/A/a/I/i -->
         <li>Estudar html</li>
         <li>Estudar css</li>
@@ -23,11 +27,15 @@
         <li>Estudar css</li>
         <li>Estudar javascript</li>
     </ul>
-    <h1>Juntando listas</h1>
+    <h2>Juntando listas</h2>
     <ol type="1">
         <li>Metas imediatas</li>
         <ol type="a">
             <li>Aprender o básico de front end</li>
+            <ul type="circle">
+                <li><abbr title="Linguagem de marcação">HTML</abbr>  <abbr title="Linguagem de estilos">CSS</abbr>
+                 e <abbr title="Linguagem de programação">javascript</abbr></li>
+            </ul>
             <li>Fazer minis projetos</li>
         </ol>
         <li>Metas a longo prazo</li>
@@ -37,5 +45,11 @@
         </ol>
     </ol>
     <!--É possível fazer listas ol junto com ul-->
+    <h2>Listas de definições</h2>
+    <!--Como se fosse um dicionário-->
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+    </dl>
 </body>
 </html>
