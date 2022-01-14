@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Ouvindo aúdio</h1>
+    <!--Usando apenas a tag audio ficamos limitados quanto a reprodução do áudio
+    autoplay serve para o áudio tocar mesmo sem ter dado play-->
+    <audio src="audio/Natural Light - Chris Haugen.mp3 " controls>Música
+    </audio>
+    <p><a href="audio/Natural Light - Chris Haugen.mp3">Clique aqui</a> para baixar esse aúdio.</p>
+    <p>Segue outro áudio </p>
+    <!--Tag preload se escolher auto (O site vai ficar pesado, pois só 
+        vai terminar de carregar quando carregar tudo); metadata (vai carregar os nomes, o tamanho); 
+        none (não vai carregar nada)-->
+    <!--próprio HTML5 já coloca a opção para download utilizando o controls. Dá uma olhada, clicando
+         nos três pontinhos do controle de áudio na página aparece a opção download sem mesmo colocar a tag para fazer.
+        <audio preload="auto" controls>-->
+    <audio preload="metadata" controls>
+           <source src="audio/Cosmic Drift - DivKid.mp3" type="audio/mpeg">Música
+    </audio>
+    <p><a href="audio/Cosmic Drift - DivKid.mp3" download="audio/Cosmic Drift">Clique aqui para baixar esse áudio</a></p>
+</body>
+</html>
