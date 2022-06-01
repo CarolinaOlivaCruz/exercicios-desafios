@@ -1,5 +1,11 @@
 /*Usar mais as medidas px e em nas fontes (16pxgeralmente é 1em)*/
-*{
-    meta charset="UTF-8"
+
+body {
+    background-image: linear-gradient(to right, #0c0a0a);
 }
 
+main {
+background-color: #8f0808;
+border-radius: 10px;
+box-shadow: 5px 5px 15px rgba(136, 109, 93, 0, 616)
+}
